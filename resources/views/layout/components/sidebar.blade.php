@@ -3,7 +3,7 @@
     <!-- Sidebar scroll-->
     <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
-            <a href="{{ url('/') }}" class="text-nowrap logo-img">
+            <a href="{{ url('/dashboard') }}" class="text-nowrap logo-img">
                 <img src="{{ asset('images/logos/logo.svg') }}" alt="" />
             </a>
             <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="{{ url('/manage/device') }}" aria-expanded="false">
+                        <a class="sidebar-link" href="{{ url('/manage/devices') }}" aria-expanded="false">
                             <iconify-icon icon="solar:user-plus-rounded-line-duotone"></iconify-icon>
                             <span class="hide-menu">Manage Devices</span>
                         </a>
